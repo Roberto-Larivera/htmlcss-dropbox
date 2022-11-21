@@ -7,10 +7,12 @@
     position: relative;
 }
 
+
+/* header first  */
 .debug header .header-first{
     background-color: white;
     height: 70px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
     width: 100%;
 
@@ -37,6 +39,8 @@
     width: 300px;
 }
 
+
+/* header second  */
 .debug header .header-second{
     width: 100%;
     height: 700px;
@@ -61,7 +65,7 @@
 }
 
 
-
+/* main first  */
 .debug main .main-first{
 
 }
@@ -71,14 +75,15 @@
     width: 100%;
 }
 .debug main .main-first-container{
-    width: 100%;
-    gap: 50px;
+    /* width: 100%; */
+    /* gap: 50px; */
 }
 .debug main .main-first-colonna{
     background-color: lightskyblue;
     height: 700px;
-    width: 300px;
+    /* width: 300px; */
     margin-top: 50px;
+    /* gap: 50px; */
 }
 .debug main .main-first-colonnamax{
     background-color: lightgreen;
@@ -98,4 +103,23 @@
     background-color: lightskyblue;
     height: 500px;
     width: 40%;
+}
+
+
+/* main second  */
+.debug main .main-second{
+
+}
+.debug main .main-second-block{
+    margin-top: 50px;
+    gap: 50px 50px;
+}
+.debug main .main-second-card{
+    background-color: lightseagreen;
+    height: 300px;
+    
+}
+.debug main .main-second-text{
+    background-color: lightpink;
+    height: 200px;
 }

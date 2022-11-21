@@ -12,6 +12,22 @@ header{
     display: flex;
 }
 
+.display-flex-bet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-bet-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .container-medium{
     max-width: 1200px;
     margin: 0 auto;
@@ -20,4 +36,8 @@ header{
 .container-mini{
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.width-block{
+    width: 300px;
 }
