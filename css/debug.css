@@ -3,35 +3,21 @@
 }
 
 /* **************************************************************** */
-.debug header>div{
-    position: relative;
-}
+
 
 
 /* header first  */
-.debug header .header-first{
-    background-color: white;
-    height: 70px;
-    /* justify-content: space-between; */
-    
-    width: 100%;
-
-    position: fixed;
-    left: 0;
-    top: 0;
+/* .debug header .header-first{
+    background-color: lightseagreen;
 }
 
 .debug header .header-first-logo{
     background-color: lightcyan;
-    height: 100%;
-    width: 150px;
 }
 
 .debug header .header-first-left{
     background-color: lightcoral;
-    height: 100%;
-    width: 300px;
-}
+} */
 
 .debug header .header-first-right{
     background-color: lightgreen;
@@ -44,7 +30,7 @@
 .debug header .header-second{
     width: 100%;
     background-color: lightsalmon;
-    margin: 70px 0;
+    padding: 70px 0;
     /* padding-top: 70px; */    /* margin o padding */
 }
 .debug header .header-second-title{
