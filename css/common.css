@@ -16,3 +16,8 @@ header{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.container-mini{
+    max-width: 1000px;
+    margin: 0 auto;
+}

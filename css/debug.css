@@ -52,3 +52,43 @@
     height: 400px;
     width: 60%;
 }
+
+
+
+.debug main .main-first{
+
+}
+.debug main .main-first-title{
+    background-color: lightblue;
+    height: 300px;
+    width: 100%;
+}
+.debug main .main-first-container{
+    width: 100%;
+    gap: 50px;
+}
+.debug main .main-first-colonna{
+    background-color: lightskyblue;
+    height: 700px;
+    width: 300px;
+    margin-top: 50px;
+}
+.debug main .main-first-colonnamax{
+    background-color: lightgreen;
+    height: 150px;
+    width: 100%;
+    margin: 50px 0;
+}
+.debug main .main-first-fot{
+
+}
+.debug main .main-first-fotimg{
+    background-color: lightpink;
+    height: 500px;
+    width: 60%;
+}
+.debug main .main-first-fottext{
+    background-color: lightskyblue;
+    height: 500px;
+    width: 40%;
+}
