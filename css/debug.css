@@ -1,3 +1,28 @@
 .debug .border-red{
     border: 2px dashed red;
 }
+
+
+.debug header .header-first{
+    background-color: orange;
+    height: 70px;
+    width: 100%;
+}
+
+.debug header .header-first-logo{
+    background-color: lightcyan;
+    height: 100%;
+    width: 10%;
+}
+
+.debug header .header-first-left{
+    background-color: lightcoral;
+    height: 100%;
+    width: 45%;
+}
+
+.debug header .header-first-right{
+    background-color: lightgreen;
+    height: 100%;
+    width: 45%;
+}
