@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+header{
+    width: 100vw;
+}
+
 .display-flex{
     display: flex;
+}
+
+.container-medium{
+    max-width: 1200px;
+    margin: 0 auto;
 }

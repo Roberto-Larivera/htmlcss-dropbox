@@ -2,27 +2,53 @@
     border: 2px dashed red;
 }
 
+/* **************************************************************** */
+.debug header{
+    
+}
 
 .debug header .header-first{
-    background-color: orange;
+    background-color: white;
     height: 70px;
     width: 100%;
+    justify-content: space-between;
 }
 
 .debug header .header-first-logo{
     background-color: lightcyan;
     height: 100%;
-    width: 10%;
+    width: 150px;
 }
 
 .debug header .header-first-left{
     background-color: lightcoral;
     height: 100%;
-    width: 45%;
+    width: 300px;
 }
 
 .debug header .header-first-right{
     background-color: lightgreen;
     height: 100%;
-    width: 45%;
+    width: 300px;
+}
+
+.debug header .header-second{
+    width: 100%;
+    height: 700px;
+    background-color: lightsalmon;
+}
+.debug header .header-second-title{
+    background-color: lightslategray;
+    height: 200px;
+    width: 100%;
+}
+.debug header .header-second-blocktext{
+    background-color: lightblue;
+    height: 400px;
+    width: 40%;
+}
+.debug header .header-second-img{
+    background-color: lightcoral;
+    height: 400px;
+    width: 60%;
 }
