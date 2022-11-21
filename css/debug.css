@@ -125,7 +125,6 @@
 
 
 /* main three */
-
 .debug main .main-three-box-left{
     background-color: lightgrey;
     width: calc(100vw / 3);
@@ -146,4 +145,30 @@
     /*height: calc(100vw / 3);*/    /* da capire Aspect-Ratio*/
     /* padding-top: 100%; */    /* da capire Aspect-Ratio*/
     aspect-ratio: 1;
+}
+
+
+/* main four  */
+/* lasciato vuoto per ora  */
+
+
+/* footer  */
+footer{
+    background-color: black;
+}
+
+
+/* footer first  */
+.debug footer .footer_first{
+    background-color: lightgrey;
+    padding: 50px 0;
+    height: 200px;
+}
+
+
+/* footer last  */
+.debug footer .footer_last{
+    background-color: gray;
+    padding: 50px 0;
+    height: 100px;
 }
