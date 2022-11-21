@@ -4,8 +4,18 @@
     box-sizing: border-box;
 }
 
-header{
+.container-max{
     width: 100vw;
+}
+
+.container-medium{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-mini{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .display-flex{
@@ -26,16 +36,6 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.container-medium{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.container-mini{
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 .width-block{

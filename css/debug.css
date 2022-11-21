@@ -3,7 +3,7 @@
 }
 
 /* **************************************************************** */
-.debug header{
+.debug header>div{
     position: relative;
 }
 
@@ -43,9 +43,8 @@
 /* header second  */
 .debug header .header-second{
     width: 100%;
-    height: 700px;
     background-color: lightsalmon;
-    margin-top: 70px;
+    margin: 70px 0;
     /* padding-top: 70px; */    /* margin o padding */
 }
 .debug header .header-second-title{
@@ -111,7 +110,7 @@
 
 }
 .debug main .main-second-block{
-    margin-top: 50px;
+    margin: 50px 0;
     gap: 50px 50px;
 }
 .debug main .main-second-card{
@@ -122,4 +121,29 @@
 .debug main .main-second-text{
     background-color: lightpink;
     height: 200px;
+}
+
+
+/* main three */
+
+.debug main .main-three-box-left{
+    background-color: lightgrey;
+    width: calc(100vw / 3);
+    /* height: calc(100vw / 3); */  /* da capire Aspect-Ratio */
+    /* padding-top: 100%; */    /* da capire Aspect-Ratio*/
+    aspect-ratio: 1; /*chiedere se funziona bene così*/
+}
+.debug main .main-three-box-center{
+    background-color: lightgoldenrodyellow;
+    width: calc(100vw / 3);
+    /*height: calc(100vw / 3);*/    /* da capire Aspect-Ratio*/
+    /* padding-top: 100%; */    /* da capire Aspect-Ratio*/
+    aspect-ratio: 1;
+}
+.debug main .main-three-box-right{
+    background-color: lightslategray;
+    width: calc(100vw / 3);
+    /*height: calc(100vw / 3);*/    /* da capire Aspect-Ratio*/
+    /* padding-top: 100%; */    /* da capire Aspect-Ratio*/
+    aspect-ratio: 1;
 }
