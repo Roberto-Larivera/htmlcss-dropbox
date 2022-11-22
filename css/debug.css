@@ -28,25 +28,25 @@
 
 /* header second  */
 .debug header .header-second{
-    width: 100%;
-    background-color: lightsalmon;
-    padding: 70px 0;
+    /* width: 100%; */
+    /* background-color: lightsalmon; */
+    /* padding: 70px 0; */
     /* padding-top: 70px; */    /* margin o padding */
 }
 .debug header .header-second-title{
-    background-color: lightslategray;
-    height: 200px;
-    width: 100%;
+    /* background-color: lightslategray; */
+    /* height: 200px; */
+    /* width: 100%; */
 }
 .debug header .header-second-blocktext{
     background-color: lightblue;
-    height: 400px;
-    width: 40%;
+    /* height: 400px;
+    width: 40%; */
 }
 .debug header .header-second-img{
     background-color: lightcoral;
-    height: 400px;
-    width: 60%;
+    /* height: 400px; */
+    /* width: 60%; */
 }
 
 
@@ -118,6 +118,14 @@
     /* padding-top: 100%; */    /* da capire Aspect-Ratio*/
     aspect-ratio: 1; /*chiedere se funziona bene così*/
 }
+
+/* .debug main .main-three-box-left{
+    background-color: lightgrey;
+    width: calc(100% / 3);                          Opzione utilizzzabile con height in vw
+    height: calc(100vw / 3);  
+ } */
+
+
 .debug main .main-three-box-center{
     background-color: lightgoldenrodyellow;
     width: calc(100vw / 3);
