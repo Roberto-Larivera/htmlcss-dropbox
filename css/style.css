@@ -12,25 +12,30 @@ header .header-first{
     position: fixed;
     left: 0;
     top: 0;
+
+    /* shadow */
+    -webkit-box-shadow: 0px 5px 16px 0px rgba(180,208,231,0.5); 
+    box-shadow: 0px 5px 16px 0px rgba(180,208,231,0.5);
 }
 
-header .header-first .header-first-left{
+header .header-first .header-first-left,
+header .header-first .header-first-right{
     align-items: center;
 
 }
-header .header-first .header-first-left ul{
+header .header-first .header-first-link ul{
     list-style-type: none;
 }
 
-header .header-first .header-first-left ul li{
+header .header-first .header-first-link ul li{
     display: inline-block;
     padding: 0 20px;
 }
 
-header .header-first .header-first-left ul li a{
+header .header-first .header-first-link ul li a{
     text-decoration: none;
     color: #777;
     font-weight: 300;
 }
 
-header .header-first .header-first-link
+
