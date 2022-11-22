@@ -6,7 +6,75 @@
 
 
 
+/* header first  */
+/* .debug header .header-first{
+    background-color: lightseagreen;
+}
 
+.debug header .header-first-logo{
+    background-color: lightcyan;
+}
+
+.debug header .header-first-left{
+    background-color: lightcoral;
+} */
+
+/* .debug header .header-first-right{
+    background-color: lightgreen;
+    height: 100%;
+    width: 300px;
+} */
+
+
+/* header second  */
+.debug header .header-second{
+    /* width: 100%; */
+    /* background-color: lightsalmon; */
+    /* padding: 70px 0; */
+    /* padding-top: 70px; */    /* margin o padding */
+}
+.debug header .header-second-title{
+    /* background-color: lightslategray; */
+    /* height: 200px; */
+    /* width: 100%; */
+}
+.debug header .header-second-blocktext{
+    /* background-color: lightblue; */
+    /* height: 400px;
+    width: 40%; */
+}
+.debug header .header-second-img{
+    /* background-color: lightcoral; */
+    /* height: 400px; */
+    /* width: 60%; */
+}
+
+
+/* main first  */
+.debug main .main-first{
+
+}
+
+.debug main .main-first-container{
+    /* width: 100%; */
+    /* gap: 50px; */
+}
+.debug main .main-first-colonna{
+    /* background-color: lightskyblue; */
+    /* height: 700px; */
+    /* width: 300px; */
+    /* margin-top: 50px; */
+    /* gap: 50px; */
+}
+.debug main .main-first-colonnamax{
+    /* background-color: lightgreen; */
+    /* height: 150px; */
+    /* width: 100%; */
+    /* margin: 50px 0; */
+}
+.debug main .main-first-fot{
+
+}
 .debug main .main-first-fotimg{
     background-color: lightpink;
     height: 500px;
