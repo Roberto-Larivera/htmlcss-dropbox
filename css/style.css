@@ -118,7 +118,7 @@ main .colonna_main p,
 main .colonna_main li,
 main .colonna_main div{
     color: #777;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 main .colonna_main .colonna_price,
 main .colonna_main .colonna_price-b{
@@ -155,4 +155,7 @@ main .elenco_footer-colonna i{
 }
 
     /* maxi colonna  */
-
+.main-first .bottom-max{
+    display: inline-block;
+    float:right;
+}
