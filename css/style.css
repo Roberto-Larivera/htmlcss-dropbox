@@ -89,34 +89,36 @@
 
 /* main first  */
 main .main-first-colonna{
-    height: 700px;
     margin-top: 50px;
     border: 1px solid #777;
 }
 main .main-first-colonnamax{
-    height: 150px;
-    width: 100%;
     margin: 50px 0;
+    border: 1px solid #777;
 }
 /* colonna */
+    /* 3 colonne  */
 main .main-first .colonna_header{
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid #777;
     font-size: 0.7em;
+    width: 100%;
 }
 main .main-first .colonna_main{
     padding: 20px;
 }
-main .colonna_main h4{
+main .colonna_main h4,
+main .colonna_max-lato-a{
     font-weight: 700;
     padding: 10px 0;
+    color: black;
 }
 main .colonna_main p,
 main .colonna_main li,
 main .colonna_main div{
     color: #777;
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 main .colonna_main .colonna_price,
 main .colonna_main .colonna_price-b{
@@ -151,3 +153,6 @@ main .elenco_main-colonna i{
 main .elenco_footer-colonna i{
     color: blue;
 }
+
+    /* maxi colonna  */
+
