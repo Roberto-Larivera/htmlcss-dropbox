@@ -88,63 +88,16 @@
 
 
 /* main first  */
-main .main-first-colonna{
-    margin-top: 50px;
-    border: 1px solid #777;
+.main_first .contenitore-principale{
+    /* margin-top: 50px;
+    border: 1px solid #777; */
+    
 }
-/* colonna */
-    /* 3 colonne  */
-main .main-first .colonna_header{
-    text-align: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #777;
-    font-size: 0.7em;
-    width: 100%;
+.main_first .contenitore_principale .colonna_base{
+    border:1px solid #777;
+    width: calc(1000/3);
 }
-main .main-first .colonna_main{
-    padding: 20px;
-}
-main .colonna_main h4{
-    font-weight: 700;
-    padding: 10px 0;
-    color: black;
-}
-main .colonna_main p,
-main .colonna_main li,
-main .colonna_main div{
-    color: #777;
-    font-size: 0.7em;
-}
-main .colonna_main .colonna_price,
-main .colonna_main .colonna_price-b{
-    font-weight: 700;
-    color: black;
-}
-main .colonna_main .colonna_price:before{
-    content: '\20AC';
-}
-main .colonna_main p{
-    margin: 5px 0;
-}
-main .colonna_main ul{
-    margin: 30px 0;
-    line-height: 2;
-    list-style-type: none;
-}
-main .colonna_main div:nth-child(6){
-    margin: 25px 0;
-}
-main .colonna_main h5{
-    font-weight: 700;
-    font-size: 0.8em;
-    margin: 30px 0;
-}
-main .colonna_main hr{
-    margin: 25px 0;
-}
-main .elenco_main-colonna i{
-    color: black;
-}
-main .elenco_footer-colonna i{
-    color: blue;
+.main_first .contenitore_principale .colonna_header{
+    border-bottom:1px solid #777;
+    padding: 10px;
 }
