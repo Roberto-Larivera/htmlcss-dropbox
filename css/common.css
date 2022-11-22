@@ -91,7 +91,9 @@ p{
     font-weight: 300;
     font-size: 1em;
 }
-main .sezione_uno,
-main .sezione_due{
+#sezione_uno,
+#sezione_due,
+#sezione_tre,
+#sezione_quattro{
     margin: 230px 0;
 }
