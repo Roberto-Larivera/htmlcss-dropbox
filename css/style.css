@@ -108,7 +108,7 @@ main .main-first .colonna_header{
 main .main-first .colonna_main{
     padding: 20px;
 }
-main .colonna_main h4,
+
 main .colonna_max-lato-a{
     font-weight: 700;
     padding: 10px 0;
@@ -156,6 +156,27 @@ main .elenco_footer-colonna i{
 
     /* maxi colonna  */
 .main-first .bottom-max{
-    display: inline-block;
-    float:right;
+    /* display: inline-block; */
+    float: right;
+}
+
+/* main first fotografia */
+.debug main .main-first-fotimg{
+    height: 500px;
+    width: 60%;
+}
+.debug main .main-first-fottext{
+    padding: 30px;
+    height: 500px;
+    width: 40%;
+}
+.debug main .main-first-fottext p{
+    font-weight: 300;
+}
+main .main-first-fot img{
+    height: 100%;
+}
+main .main-first-fot .bottom-white{
+    margin-top: 30px;
+    color: black;
 }
