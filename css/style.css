@@ -35,8 +35,6 @@
 
 #header .header-first .header-first-link ul li a{
     text-decoration: none;
-    color: #777;
-    font-weight: 300;
 }
 
 /* header second */
@@ -44,6 +42,7 @@
     width: 100vw;
     background-color: #b4d0e7;
     padding-top: 70px;
+    margin-bottom: 50px;
 }
 
 #header .header-second h1{
