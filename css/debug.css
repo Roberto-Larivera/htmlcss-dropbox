@@ -54,27 +54,23 @@
 .debug main .main-first{
 
 }
-.debug main .main-first-title{
-    background-color: lightblue;
-    height: 300px;
-    width: 100%;
-}
+
 .debug main .main-first-container{
     /* width: 100%; */
     /* gap: 50px; */
 }
 .debug main .main-first-colonna{
     background-color: lightskyblue;
-    height: 700px;
+    /* height: 700px; */
     /* width: 300px; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* gap: 50px; */
 }
 .debug main .main-first-colonnamax{
     background-color: lightgreen;
-    height: 150px;
-    width: 100%;
-    margin: 50px 0;
+    /* height: 150px; */
+    /* width: 100%; */
+    /* margin: 50px 0; */
 }
 .debug main .main-first-fot{
 
