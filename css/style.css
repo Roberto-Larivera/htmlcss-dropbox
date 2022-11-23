@@ -162,7 +162,18 @@ main .main-first-colonna{
 }
 main .main-first-colonnamax{
     margin: 50px 0;
-    border: 1px solid #777;
+    border: 2px solid #777;
+}
+
+.text_circle p, .text_circle i{
+    float: left;
+
+}
+.text_circle i{
+    margin-right: 10px;
+}
+.text_circle p{
+    margin-right: 50px;
 }
 /* colonna */
     /* 3 colonne  */
