@@ -53,7 +53,7 @@
 #header .header-first .header-first-link ul li a{
     text-decoration: none;
 }
-#header .header-first .header-first-link ul li a:hover{
+#header .header-first .header-first-link ul li:not(#bottom_header) a:hover{
     text-decoration:underline;
 }
 
