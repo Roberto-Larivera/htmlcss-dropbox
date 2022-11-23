@@ -309,3 +309,30 @@ main .tre-card .card_only{
     display: inline-block;
     margin:50px 0;
 }
+
+
+/*   SEZIONE 6 DEL MAIN   */
+#sezione_sei .contenitore_sei{
+    background-color: #b4d0e7;
+    padding: 150px 0;
+}
+#sezione_sei h2{
+    padding-bottom: 0;
+    color: #5f052b;
+}
+#sezione_sei a{
+    align-self: flex-start;
+    color: black;
+}
+
+
+/*   SEZIONE 7 DEL MAIN   */
+#sezione_sette hr{
+    width: 100%;
+}
+#sezione_sette .sette_main-1 .display-flex-bet{
+    align-items: center;
+}
+#sezione_sette .sette_finestra{
+    padding-top: 50px;
+}
