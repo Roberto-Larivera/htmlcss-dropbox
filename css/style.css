@@ -104,6 +104,50 @@
 }
 
 
+/* ++++++++     MENU BOX HEADER -   BONUS      +++++++++++++*/
+.menu_box {
+    position: fixed;
+    top:70px;
+    left:167px;
+    z-index: 28;
+    
+    /* background-color: #00ccff; */
+    background-color: white;
+    -webkit-box-shadow: 2px 5px 21px 1px rgba(0,204,255,0.79); 
+    box-shadow: 2px 5px 21px 1px rgba(0,204,255,0.79);
+    padding: 30px 0;
+    display: flex;
+}
+.menu_box .menu_box-a,
+.menu_box .menu_box-b{
+    padding: 0 30px;
+}
+.menu_box span{
+    font-weight: 500;
+    color: #00ccff;
+    line-height: 30px;
+    
+}
+.menu_box li{
+    list-style-type: none;
+}
+.menu_box a{
+    text-decoration: none;
+    color: #777;
+    line-height: 30px;
+}
+.menu_box a:hover{
+    text-decoration:underline;
+    color: #777;
+}
+
+
+#menu_dropbox{
+    /* opacity: 0; */
+}
+#link_dropbox:hover > #menu_dropbox{
+    /* opacity: 1; */
+}
 /* SEZIONE 1 DEL MAIN */
 main .main-first-colonna{
     margin-top: 50px;
@@ -365,9 +409,6 @@ main .tre-card .card_only{
     padding-top: 50px;
     display: none;
     
-}
-#sezione_sette .sette_main-1{
-
 }
 #sezione_sette .fa-caret-up{
     display: none;
