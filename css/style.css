@@ -18,29 +18,43 @@
     -webkit-box-shadow: 0px 5px 16px 0px rgba(180,208,231,0.5); 
     box-shadow: 0px 5px 16px 0px rgba(180,208,231,0.5);
 }
-
+#header .header-first-logo{
+    padding-right: 20px;
+}
 #header .header-first .header-first-left,
 #header .header-first .header-first-right{
     align-items: center;
 
 }
+#header .header-first .header-first-link{
+    height: 100%;
+}
+#header .header-first .header-first-link nav{
+    height: 100%;
+}
 #header .header-first .header-first-link ul{
     list-style-type: none;
+    height: 100%;
+    display: flex;
     
 }
 
 #header .header-first .header-first-link ul li{
-    display: inline-block;
+    display: flex;
+    align-items: center;
     padding: 0 20px;
     height: 100%;
 }
-#header .header-first .header-first-link ul li:hover{
-    /* border-bottom: 2px solid black; */
+#header .header-first .header-first-link ul li:not(#bottom_header):hover{
+
     box-shadow: inset 0px -2px 0px 0px #000000;
 }
 
 #header .header-first .header-first-link ul li a{
     text-decoration: none;
+}
+#header .header-first .header-first-link ul li a:hover{
+    text-decoration:underline;
 }
 
 /* header second */
@@ -176,6 +190,9 @@ main .sezione_due-text{
     height: 500px;
     width: 40%;
 }
+main .sezione_due-text a:hover{
+    color: white;
+}
 /* main .main-first-fottext p{
     font-weight: 300;
 } */
@@ -192,6 +209,7 @@ main .tre-block{
     margin: 50px 0;
     gap: 50px 50px;
 }
+
 main .tre-card{
     width: 300px;
     min-height: 500px;
@@ -330,7 +348,9 @@ main .tre-card .card_only{
     align-self: flex-start;
     color: black;
 }
-
+#sezione_sei a:hover{
+    color: white;
+}
 
 /*   SEZIONE 7 DEL MAIN   */
 #sezione_sette hr{
@@ -338,10 +358,30 @@ main .tre-card .card_only{
 }
 #sezione_sette .sette_main-1 .display-flex-bet{
     align-items: center;
+
+
 }
 #sezione_sette .sette_finestra{
     padding-top: 50px;
+    display: none;
+    
 }
+#sezione_sette .sette_main-1{
+
+}
+#sezione_sette .fa-caret-up{
+    display: none;
+}
+#sezione_sette .sette_main-1:hover .sette_finestra{
+    display: block;
+}
+#sezione_sette .sette_main-1:hover .fa-caret-down{
+    display: none;
+}
+#sezione_sette .sette_main-1:hover .fa-caret-up{
+    display: block;
+}
+
 
 /* FOOTER  */
 footer{
