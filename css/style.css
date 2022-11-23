@@ -7,7 +7,7 @@
     height: 70px;
     padding: 20px;
     
-    width: 100vw;
+    width: 100%;
 
     position: fixed;
     left: 0;
@@ -220,16 +220,92 @@ main .tre-card .card_only{
 /* SEZIONE 4 DEL MAIN */
 /*   Vuoto senza regole   */
 
+/*   SEZIONE 5 DEL MAIN   */
+#sezione_cinque .cinque_box-maxi{
+    background-color: lightgrey;
+    width: calc(100% / 3);
+    height: calc(100vw/3);
+    /* aspect-ratio: 1; */
+}
+#sezione_cinque .cinque_box-maxi > div{
+    width: 50%;
+    height: 50%;
+}
+#sezione_cinque  .generale_bg{
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sezione_cinque .img_a-uno,
+#sezione_cinque .img_a-due,
+#sezione_cinque .img_a-tre,
+#sezione_cinque .img_a-quattro,
+#sezione_cinque .img_b-uno,
+#sezione_cinque .img_b-due,
+#sezione_cinque .img_b-tre,
+#sezione_cinque .img_b-quattro{
+    filter:invert(1);
+}
+#sezione_cinque  .img_a-uno{
+    background-image: url(../img/img/designit.svg);
+}
+#sezione_cinque  .bg_a-uno{
+    background-color: #a2d39b;
+}
+#sezione_cinque  .img_a-due{
+    background-image: url(../img/img/arizona_state_university.svg);
+}
+#sezione_cinque  .bg_a-due{
+    background-color: #61082b;
+}
+#sezione_cinque  .img_a-tre{
+    background-image: url(../img/img/university_of_florida.svg);
+}
+#sezione_cinque  .bg_a-tre{
+    background-color: #0093ce;
+}
+#sezione_cinque  .img_a-quattro{
+    background-image: url(../img/img/topps.svg);
+}
+#sezione_cinque  .bg_a-quattro{
+    background-color: #ff1c1c;
+}
+#sezione_cinque  .img_b-uno{
+    background-image: url(../img/img/world_bicycle_relief.svg);
+}
+#sezione_cinque  .bg_b-uno{
+    background-color: #d5001f;
+}
+#sezione_cinque  .img_b-due{
+    background-image: url(../img/img/hearst_corp.svg);
+}
+#sezione_cinque  .bg_b-due{
+    background-color: #b4d0e7;
+}
+#sezione_cinque  .img_b-tre{
+    background-image: url(../img/img/lonely_planet.svg);
+}
+#sezione_cinque  .bg_b-tre{
+    background-color: #0d2481;
+}
+#sezione_cinque  .img_b-quattro{
+    background-image: url(../img/img/clear_channel.svg);
+}
+#sezione_cinque  .bg_b-quattro{
+    background-color: #ffd830;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* box centrale */
+#sezione_cinque .box_centrale{
+    overflow: auto;
+    padding: 50px;
+}
+#sezione_cinque .box_centrale img{
+    width: 50%;
+    object-fit:cover;
+}
+#sezione_cinque cite{
+    display: inline-block;
+    margin:50px 0;
+}
