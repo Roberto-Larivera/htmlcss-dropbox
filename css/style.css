@@ -336,3 +336,35 @@ main .tre-card .card_only{
 #sezione_sette .sette_finestra{
     padding-top: 50px;
 }
+
+/* FOOTER  */
+footer{
+    background-color: black;
+    padding: 50px 0;
+}
+footer .footer_box{
+    width: calc(1200px/5);
+}
+footer .footer_box h3{
+    color: white;
+    line-height: 50px;
+}
+footer .footer_box ul{
+    text-decoration: none;
+}
+footer .footer_box li{
+    line-height: 30px;
+}
+footer .footer_box a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    
+}
+footer .container-medium hr{
+    width: 10%;
+}
+footer .footer_last{
+    color: white;
+    font-weight: 300;
+}
